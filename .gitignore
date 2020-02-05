@@ -2,7 +2,7 @@ node_modules
 /**
 !.editorconfig
 !.eslintignore
-!.eslintrc
+!*.eslintrc
 !.gitattributes
 !.gitignore
 !package.json
