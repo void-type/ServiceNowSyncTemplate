@@ -25,9 +25,12 @@
     "no-duplicate-case": "warn",
     "no-empty-character-class": "warn",
     "no-empty-pattern": "warn",
-    "no-empty": ["warn", {
-      "allowEmptyCatch": true
-    }],
+    "no-empty": [
+      "warn",
+      {
+        "allowEmptyCatch": true
+      }
+    ],
     "no-ex-assign": "warn",
     "no-extra-boolean-cast": "warn",
     "no-extra-semi": "warn",
@@ -57,6 +60,13 @@
     "no-useless-escape": "warn",
     "require-yield": "warn",
     "use-isnan": "warn",
-    "valid-typeof": "warn"
+    "valid-typeof": "warn",
+    "curly": "warn"
+  },
+  "globals": {
+    "gs": "readonly",
+    "g_form": "readonly",
+    "confirm": "readonly",
+    "alert": "readonly"
   }
 }
