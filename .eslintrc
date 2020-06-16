@@ -65,8 +65,6 @@
   },
   "globals": {
     "gs": "readonly",
-    "g_form": "readonly",
-    "confirm": "readonly",
-    "alert": "readonly"
+    "g_form": "readonly"
   }
 }
