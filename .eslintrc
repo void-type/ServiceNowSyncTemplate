@@ -61,10 +61,20 @@
     "require-yield": "warn",
     "use-isnan": "warn",
     "valid-typeof": "warn",
-    "curly": "warn"
-  },
-  "globals": {
-    "gs": "readonly",
-    "g_form": "readonly"
+    "curly": [
+      "warn",
+      "all"
+    ],
+    "object-curly-newline": [
+      "warn",
+      "always"
+    ],
+    "brace-style": [
+      "warn",
+      "1tbs",
+      {
+        "allowSingleLine": false
+      }
+    ]
   }
 }
