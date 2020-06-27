@@ -1,5 +1,5 @@
 node_modules
-/**
+service-now.json
 !.editorconfig
 !.eslintignore
 !*.eslintrc
