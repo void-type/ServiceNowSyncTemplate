@@ -67,7 +67,21 @@
     ],
     "object-curly-newline": [
       "warn",
-      "always"
+      {
+        "ObjectExpression": {
+          "minProperties": 3,
+          "multiline": true
+        },
+        "ObjectPattern": {
+          "minProperties": 3,
+          "multiline": true
+        },
+        "ImportDeclaration": "never",
+        "ExportDeclaration": {
+          "multiline": true,
+          "minProperties": 3
+        }
+      }
     ],
     "brace-style": [
       "warn",
