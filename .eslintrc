@@ -89,6 +89,10 @@
       {
         "allowSingleLine": false
       }
+    ],
+    "quotes": [
+      "warn",
+      "single"
     ]
   }
 }
