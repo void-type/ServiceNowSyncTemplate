@@ -1,9 +1,12 @@
 *
 !.editorconfig
 !.eslintignore
-!*.eslintrc
+!.eslintrc
 !.gitattributes
 !.gitignore
-!package.json
-!package-lock.json
 !Readme.md
+!now.eslintrc
+!package-lock.json
+!package.json
+!.vscode
+!.vscode/**
